@@ -214,4 +214,4 @@ async def setup(interaction: discord.Interaction):
 
 server_on()
 
-os.getenv('TOKEN')
+bot.run(os.getenv('TOKEN'))
