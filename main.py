@@ -209,9 +209,10 @@ async def setup(interaction: discord.Interaction):
     embed.set_image(
         url='https://media.discordapp.net/attachments/1412433107574849577/1412755657165373483/1276_20250903180622.png?ex=68b972bc&is=68b8213c&hm=237fac0b593088c7d90487c19ffdb37b2f02ee5fedb1c9ffd778b5532fbf2793&=&format=webp&quality=lossless&width=852&height=481'
     )
-    embed.set_footer(text="BOT SEVER  © discord.gg/")
+    embed.set_footer(text="BOT TICKET  © discord.gg/mfMzCeZGfh")
     await interaction.response.send_message(embed=embed, view=Create_ticket())
 
 server_on()
 
 bot.run(os.getenv('TOKEN'))
+
